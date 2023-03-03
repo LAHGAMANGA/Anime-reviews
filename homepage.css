@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Cairo&family=El+Messiri:wght@500&family=Jomhuria&family=Lalezar&family=Mada:wght@300&family=Marhey:wght@300&family=Noto+Sans+Display&family=Rakkas&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@media(max-width:1023px) {
+    body {
+
+        background-color: #141414;
+        position: relative;
+
+    }
+    header {
+
+        background-color: #1E1E1E;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+
+    }
+    .Toolbar:link {
+
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        padding: 0px 20px;
+        font-family: 'Rakkas', cursive;
+        margin-right: 60px;
+
+    }
+    .Toolbar a:hover {
+
+        color: red;
+
+    }
+    .reviewlogo1 {
+
+        width: 80px;
+        height: 80px;
+        margin-left: 75%;
+        border-radius: 8px;
+        position: absolute;
+        top: 350px;
+    }
+    .reviewinfo1 {
+        position: absolute;
+        top: 360px;
+        margin-left: 12%;
+        font-family: 'Lalezar', cursive;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .reviewlogo2 {
+        width: 80px;
+        height: 80px;
+        margin-left: 75%;
+        border-radius: 8px;
+        position: absolute;
+        top: 500px;
+    }
+    .reviewinfo2 {
+        position: absolute;
+        top: 510px;
+        margin-left: 18%;
+        font-family: 'Lalezar', cursive;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .reviewlogo3 {
+        width: 80px;
+        height: 80px;
+        margin-left: 75%;
+        border-radius: 8px;
+        position: absolute;
+        top: 650px;
+        
+    }
+    .reviewinfo3 {
+        position: absolute;
+        top: 660px;
+        margin-left: 18%;
+        font-family: 'Lalezar', cursive;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        
+        
+    }
+    .reviewlogo4 {
+        width: 80px;
+        height: 80px;
+        margin-left: 75%;
+        border-radius: 8px;
+        position: absolute;
+        top: 800px;
+        
+    }
+    .reviewinfo4 {
+        position: absolute;
+        top: 810px;
+        margin-left: 18%;
+        font-family: 'Lalezar', cursive;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        
+    }
+    #sp {
+        position: absolute;
+        top: 850px;
+    }

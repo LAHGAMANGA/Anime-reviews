@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Cairo&family=El+Messiri:wght@500&family=Lalezar&family=Mada:wght@300&family=Noto+Sans+Display&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@media(max-width:1023px) {
+    body {
+
+        background-color: #141414;
+        position: relative;
+
+    }
+    header {
+
+        background-color: #1E1E1E;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+
+    }
+    .Toolbar:link {
+
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        padding: 0px 20px;
+        font-family: 'Blaka Hollow', cursive;
+        margin-right: 60px;
+
+    }
+    .Toolbar a:hover {
+
+        color: red;
+
+    }
+        div{
+        
+        border: 1px solid red;
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 20px;
+        top: 25%;
+        left: 90px;
+        text-align: center;
+        font-family: 'Mada', sans-serif;
+        font-size: 30px;
+        color: white;
+        box-shadow: 10px 10px 30px black;
+        overflow: none;
+        margin-right: 380px;
+        margin-top: 100px;
+    }
+    .rat{
+        font-size: 16px;
+        font-family: 'Cairo', sans-serif;
+    }
+    .info {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 450px;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Cairo', sans-serif;
+        overflow: none;
+    }
+    .wt {
+        position: absolute;
+        top: 900px;
+        left: 40px;
+        font-size: 25px;
+        font-family: 'Blaka Hollow', cursive;
+        text-decoration: none;
+        color: white;
+        border: 2px solid #1DEB82;
+        border-radius: 8px;
+        padding: 10px 10px;
+    }
+    .wt:hover {
+        font-size: 26px;
+        color: #1DEB82;
+        padding-left: 2px;
+    }
+    .sp {
+        position: absolute;
+        top: 1000px;
+    }
